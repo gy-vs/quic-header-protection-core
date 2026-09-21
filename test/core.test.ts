@@ -1,0 +1,1 @@
+import{expect,it}from'vitest';import{decodeVarint}from'../src/index.js';it('decodes',()=>expect(decodeVarint(Uint8Array.from([37]))?.value).toBe(37n));
